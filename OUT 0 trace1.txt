@@ -1,0 +1,405 @@
+The CPI of trace1.txt is 2.293103
+ction is:1000 lw $1 100 $10
+the decode instruction is:NULL
+the execute instruction is:NULL
+the memory instruction is:NULL
+the write back instruction is:NULL 
+
+Cycle number =1
+the fetch instruction is:1004 lw $2 200 $10
+the decode instruction is:1000 lw $1 100 $10
+the execute instruction is:NULL
+the memory instruction is:NULL
+the write back instruction is:NULL 
+
+Cycle number =2
+the fetch instruction is:stall
+the decode instruction is:1004 lw $2 200 $10
+the execute instruction is:1000 lw $1 100 $10
+the memory instruction is:NULL
+the write back instruction is:NULL 
+
+Cycle number =3
+the fetch instruction is:stall
+the decode instruction is:stall
+the execute instruction is:1004 lw $2 200 $10
+the memory instruction is:1000 lw $1 100 $10
+the write back instruction is:NULL 
+
+Cycle number =4
+the fetch instruction is:stall
+the decode instruction is:stall
+the execute instruction is:stall
+the memory instruction is:1004 lw $2 200 $10
+the write back instruction is:1000 lw $1 100 $10 
+
+Cycle number =5
+the fetch instruction is:1008 add $3 $2 $1
+the decode instruction is:stall
+the execute instruction is:stall
+the memory instruction is:stall
+the write back instruction is:1004 lw $2 200 $10 
+
+Cycle number =6
+the fetch instruction is:1012 sw $3 300 $10
+the decode instruction is:1008 add $3 $2 $1
+the execute instruction is:stall
+the memory instruction is:stall
+the write back instruction is:stall 
+
+Cycle number =7
+the fetch instruction is:1016 addi $10 $10 4
+the decode instruction is:1012 sw $3 300 $10
+the execute instruction is:1008 add $3 $2 $1
+the memory instruction is:stall
+the write back instruction is:stall 
+
+Cycle number =8
+the fetch instruction is:stall
+the decode instruction is:1016 addi $10 $10 4
+the execute instruction is:1012 sw $3 300 $10
+the memory instruction is:1008 add $3 $2 $1
+the write back instruction is:stall 
+
+Cycle number =9
+the fetch instruction is:stall
+the decode instruction is:stall
+the execute instruction is:1016 addi $10 $10 4
+the memory instruction is:1012 sw $3 300 $10
+the write back instruction is:1008 add $3 $2 $1 
+
+Cycle number =10
+the fetch instruction is:stall
+the decode instruction is:stall
+the execute instruction is:stall
+the memory instruction is:1016 addi $10 $10 4
+the write back instruction is:1012 sw $3 300 $10 
+
+Cycle number =11
+the fetch instruction is:1020 bneq $10 $11 loop
+the decode instruction is:stall
+the execute instruction is:stall
+the memory instruction is:stall
+the write back instruction is:1016 addi $10 $10 4 
+
+Cycle number =12
+the fetch instruction is:1000 lw $1 100 $10
+the decode instruction is:1020 bneq $10 $11 loop
+the execute instruction is:stall
+the memory instruction is:stall
+the write back instruction is:stall 
+
+Cycle number =13
+the fetch instruction is:1004 lw $2 200 $10
+the decode instruction is:1000 lw $1 100 $10
+the execute instruction is:1020 bneq $10 $11 loop
+the memory instruction is:stall
+the write back instruction is:stall 
+
+Cycle number =14
+the fetch instruction is:1004 lw $2 200 $10
+the decode instruction is:1000 lw $1 100 $10
+the execute instruction is:stall
+the memory instruction is:1020 bneq $10 $11 loop
+the write back instruction is:stall 
+
+Cycle number =15
+the fetch instruction is:stall
+the decode instruction is:1004 lw $2 200 $10
+the execute instruction is:1000 lw $1 100 $10
+the memory instruction is:stall
+the write back instruction is:1020 bneq $10 $11 loop 
+
+Cycle number =16
+the fetch instruction is:1008 add $3 $2 $1
+the decode instruction is:stall
+the execute instruction is:1004 lw $2 200 $10
+the memory instruction is:1000 lw $1 100 $10
+the write back instruction is:stall 
+
+Cycle number =17
+the fetch instruction is:1012 sw $3 300 $10
+the decode instruction is:1008 add $3 $2 $1
+the execute instruction is:stall
+the memory instruction is:1004 lw $2 200 $10
+the write back instruction is:1000 lw $1 100 $10 
+
+Cycle number =18
+the fetch instruction is:1016 addi $10 $10 4
+the decode instruction is:1012 sw $3 300 $10
+the execute instruction is:1008 add $3 $2 $1
+the memory instruction is:stall
+the write back instruction is:1004 lw $2 200 $10 
+
+Cycle number =19
+the fetch instruction is:stall
+the decode instruction is:1016 addi $10 $10 4
+the execute instruction is:1012 sw $3 300 $10
+the memory instruction is:1008 add $3 $2 $1
+the write back instruction is:stall 
+
+Cycle number =20
+the fetch instruction is:stall
+the decode instruction is:stall
+the execute instruction is:1016 addi $10 $10 4
+the memory instruction is:1012 sw $3 300 $10
+the write back instruction is:1008 add $3 $2 $1 
+
+Cycle number =21
+the fetch instruction is:stall
+the decode instruction is:stall
+the execute instruction is:stall
+the memory instruction is:1016 addi $10 $10 4
+the write back instruction is:1012 sw $3 300 $10 
+
+Cycle number =22
+the fetch instruction is:1020 bneq $10 $11 loop
+the decode instruction is:stall
+the execute instruction is:stall
+the memory instruction is:stall
+the write back instruction is:1016 addi $10 $10 4 
+
+Cycle number =23
+the fetch instruction is:1000 lw $1 100 $10
+the decode instruction is:1020 bneq $10 $11 loop
+the execute instruction is:stall
+the memory instruction is:stall
+the write back instruction is:stall 
+
+Cycle number =24
+the fetch instruction is:1004 lw $2 200 $10
+the decode instruction is:1000 lw $1 100 $10
+the execute instruction is:1020 bneq $10 $11 loop
+the memory instruction is:stall
+the write back instruction is:stall 
+
+Cycle number =25
+the fetch instruction is:1004 lw $2 200 $10
+the decode instruction is:1000 lw $1 100 $10
+the execute instruction is:stall
+the memory instruction is:1020 bneq $10 $11 loop
+the write back instruction is:stall 
+
+Cycle number =26
+the fetch instruction is:stall
+the decode instruction is:1004 lw $2 200 $10
+the execute instruction is:1000 lw $1 100 $10
+the memory instruction is:stall
+the write back instruction is:1020 bneq $10 $11 loop 
+
+Cycle number =27
+the fetch instruction is:1008 add $3 $2 $1
+the decode instruction is:stall
+the execute instruction is:1004 lw $2 200 $10
+the memory instruction is:1000 lw $1 100 $10
+the write back instruction is:stall 
+
+Cycle number =28
+the fetch instruction is:1012 sw $3 300 $10
+the decode instruction is:1008 add $3 $2 $1
+the execute instruction is:stall
+the memory instruction is:1004 lw $2 200 $10
+the write back instruction is:1000 lw $1 100 $10 
+
+Cycle number =29
+the fetch instruction is:1016 addi $10 $10 4
+the decode instruction is:1012 sw $3 300 $10
+the execute instruction is:1008 add $3 $2 $1
+the memory instruction is:stall
+the write back instruction is:1004 lw $2 200 $10 
+
+Cycle number =30
+the fetch instruction is:stall
+the decode instruction is:1016 addi $10 $10 4
+the execute instruction is:1012 sw $3 300 $10
+the memory instruction is:1008 add $3 $2 $1
+the write back instruction is:stall 
+
+Cycle number =31
+the fetch instruction is:stall
+the decode instruction is:stall
+the execute instruction is:1016 addi $10 $10 4
+the memory instruction is:1012 sw $3 300 $10
+the write back instruction is:1008 add $3 $2 $1 
+
+Cycle number =32
+the fetch instruction is:stall
+the decode instruction is:stall
+the execute instruction is:stall
+the memory instruction is:1016 addi $10 $10 4
+the write back instruction is:1012 sw $3 300 $10 
+
+Cycle number =33
+the fetch instruction is:1020 bneq $10 $11 loop
+the decode instruction is:stall
+the execute instruction is:stall
+the memory instruction is:stall
+the write back instruction is:1016 addi $10 $10 4 
+
+Cycle number =34
+the fetch instruction is:1000 lw $1 100 $10
+the decode instruction is:1020 bneq $10 $11 loop
+the execute instruction is:stall
+the memory instruction is:stall
+the write back instruction is:stall 
+
+Cycle number =35
+the fetch instruction is:1004 lw $2 200 $10
+the decode instruction is:1000 lw $1 100 $10
+the execute instruction is:1020 bneq $10 $11 loop
+the memory instruction is:stall
+the write back instruction is:stall 
+
+Cycle number =36
+the fetch instruction is:1004 lw $2 200 $10
+the decode instruction is:1000 lw $1 100 $10
+the execute instruction is:stall
+the memory instruction is:1020 bneq $10 $11 loop
+the write back instruction is:stall 
+
+Cycle number =37
+the fetch instruction is:stall
+the decode instruction is:1004 lw $2 200 $10
+the execute instruction is:1000 lw $1 100 $10
+the memory instruction is:stall
+the write back instruction is:1020 bneq $10 $11 loop 
+
+Cycle number =38
+the fetch instruction is:1008 add $3 $2 $1
+the decode instruction is:stall
+the execute instruction is:1004 lw $2 200 $10
+the memory instruction is:1000 lw $1 100 $10
+the write back instruction is:stall 
+
+Cycle number =39
+the fetch instruction is:1012 sw $3 300 $10
+the decode instruction is:1008 add $3 $2 $1
+the execute instruction is:stall
+the memory instruction is:1004 lw $2 200 $10
+the write back instruction is:1000 lw $1 100 $10 
+
+Cycle number =40
+the fetch instruction is:1016 addi $10 $10 4
+the decode instruction is:1012 sw $3 300 $10
+the execute instruction is:1008 add $3 $2 $1
+the memory instruction is:stall
+the write back instruction is:1004 lw $2 200 $10 
+
+Cycle number =41
+the fetch instruction is:stall
+the decode instruction is:1016 addi $10 $10 4
+the execute instruction is:1012 sw $3 300 $10
+the memory instruction is:1008 add $3 $2 $1
+the write back instruction is:stall 
+
+Cycle number =42
+the fetch instruction is:stall
+the decode instruction is:stall
+the execute instruction is:1016 addi $10 $10 4
+the memory instruction is:1012 sw $3 300 $10
+the write back instruction is:1008 add $3 $2 $1 
+
+Cycle number =43
+the fetch instruction is:stall
+the decode instruction is:stall
+the execute instruction is:stall
+the memory instruction is:1016 addi $10 $10 4
+the write back instruction is:1012 sw $3 300 $10 
+
+Cycle number =44
+the fetch instruction is:1020 bneq $10 $11 loop
+the decode instruction is:stall
+the execute instruction is:stall
+the memory instruction is:stall
+the write back instruction is:1016 addi $10 $10 4 
+
+Cycle number =45
+the fetch instruction is:1000 lw $1 100 $10
+the decode instruction is:1020 bneq $10 $11 loop
+the execute instruction is:stall
+the memory instruction is:stall
+the write back instruction is:stall 
+
+Cycle number =46
+the fetch instruction is:1004 lw $2 200 $10
+the decode instruction is:1000 lw $1 100 $10
+the execute instruction is:1020 bneq $10 $11 loop
+the memory instruction is:stall
+the write back instruction is:stall 
+
+Cycle number =47
+the fetch instruction is:1004 lw $2 200 $10
+the decode instruction is:1000 lw $1 100 $10
+the execute instruction is:stall
+the memory instruction is:1020 bneq $10 $11 loop
+the write back instruction is:stall 
+
+Cycle number =48
+the fetch instruction is:stall
+the decode instruction is:1004 lw $2 200 $10
+the execute instruction is:1000 lw $1 100 $10
+the memory instruction is:stall
+the write back instruction is:1020 bneq $10 $11 loop 
+
+Cycle number =49
+the fetch instruction is:1008 add $3 $2 $1
+the decode instruction is:stall
+the execute instruction is:1004 lw $2 200 $10
+the memory instruction is:1000 lw $1 100 $10
+the write back instruction is:stall 
+
+Cycle number =50
+the fetch instruction is:1012 sw $3 300 $10
+the decode instruction is:1008 add $3 $2 $1
+the execute instruction is:stall
+the memory instruction is:1004 lw $2 200 $10
+the write back instruction is:1000 lw $1 100 $10 
+
+Cycle number =51
+the fetch instruction is:1016 addi $10 $10 4
+the decode instruction is:1012 sw $3 300 $10
+the execute instruction is:1008 add $3 $2 $1
+the memory instruction is:stall
+the write back instruction is:1004 lw $2 200 $10 
+
+Cycle number =52
+the fetch instruction is:stall
+the decode instruction is:1016 addi $10 $10 4
+the execute instruction is:1012 sw $3 300 $10
+the memory instruction is:1008 add $3 $2 $1
+the write back instruction is:stall 
+
+Cycle number =53
+the fetch instruction is:stall
+the decode instruction is:stall
+the execute instruction is:1016 addi $10 $10 4
+the memory instruction is:1012 sw $3 300 $10
+the write back instruction is:1008 add $3 $2 $1 
+
+Cycle number =54
+the fetch instruction is:stall
+the decode instruction is:stall
+the execute instruction is:stall
+the memory instruction is:1016 addi $10 $10 4
+the write back instruction is:1012 sw $3 300 $10 
+
+Cycle number =55
+the fetch instruction is:1020 bneq $10 $11 loop
+the decode instruction is:stall
+the execute instruction is:stall
+the memory instruction is:stall
+the write back instruction is:1016 addi $10 $10 4 
+
+Cycle number =56
+the fetch instruction is:1024 add $10 $0 $0
+the decode instruction is:1020 bneq $10 $11 loop
+the execute instruction is:stall
+the memory instruction is:stall
+the write back instruction is:stall 
+
+Cycle number =57
+the fetch instruction is:1024 add $10 $0 $0
+the decode instruction is:1024 add $10 $0 $0
+the execute instruction is:1020 bneq $10 $11 loop
+the memory instruction is:stall
+the write back instruction is:stall 
